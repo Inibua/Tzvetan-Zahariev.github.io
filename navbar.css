@@ -1,0 +1,111 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .posts.content {
+      max-height: 100%;
+      padding-top: 10px;
+
+    }
+
+    .info.content {
+      max-height: 100%;
+      padding-top: 10px;
+
+    }
+
+    .profile.content{
+      padding-top: 10px;
+    }
+    
+  
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+
+    .single-post-image {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .profile-image {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .single-post {
+      position: center;
+      max-width: 700px;
+    }
+
+    .single-post-image-container {
+      max-width: 100%
+    }
+
+    .profile-image-container {
+      max-width: 100%
+    }
+
+    .button-active {
+      color: #C3FF00;
+      background-color: #535353; 
+    }
+
+    .login-form {
+      background-color: #535353;
+      padding: 1em 0 0;
+      color: #EFEFEF;
+      display: none; 
+    }
+
+    .login-form .container {
+      padding: 0 0.5em; 
+    }
+  
+    .login-form h4 {
+      font-weight: 400; 
+    }
+  
+    .login-form input {
+      width: calc(100% - 1em);
+      border: none;
+      height: 2em;
+      margin: 0.5em 0;
+      font-size: 1em;
+      padding: 0 0.5em; 
+    }
+  
+    .sign-in-button {
+      background-color: #303030;
+      color: #C3FF00;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      text-align: center;
+      width: 100%;
+      height: 2.5em;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      cursor: pointer; 
+    }
+
+
+
+    /*scroling back to top button*/
+
